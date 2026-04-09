@@ -30,7 +30,7 @@ public class SecurityConfig {
     public UserDetailsService userDetailsService(){
 
         UserDetails user1= User
-                .withDefaultPasswordEncoder()  // method depicated
+                .withDefaultPasswordEncoder()  // method depicateds
                 .username("ayush")
                 .password("ayush@123")
                 .roles("USER")
