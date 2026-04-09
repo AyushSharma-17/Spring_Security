@@ -1,7 +1,8 @@
-package com.example.spscrity;
+package Controller;
 
 import java.util.*;
 
+import Model.Student;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
